@@ -3,7 +3,7 @@ import axios from "axios";
 import { withFormik, Form as FormikForm, Field } from "formik";
 import * as Yup from "yup";
 
-function Form({ errors, touched }) {
+function SignupForm({ errors, touched }) {
   console.log(errors);
   return (
     <FormikForm className="card">
@@ -68,4 +68,4 @@ export default withFormik({
     //THIS IS WHERE YOU DO YOUR FORM SUBMISSION CODE... HTTP REQUESTS, ETC.
     axios.post("https://reqres.in/api/users").then(res => console.log(res));
   }
-})(Form);
+})(SignupForm);
