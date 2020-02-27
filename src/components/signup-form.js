@@ -10,7 +10,6 @@ let editing = false;
 function SignupForm(props) {
   const { errors, touched, handleList, setValues } = props;
   [teamList, setList] = handleList;
-  console.log(errors);
 
   history = useHistory();
   const params = useParams();
