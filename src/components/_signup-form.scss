@@ -1,0 +1,15 @@
+form.card {
+  padding: 2rem;
+  background-color: #2b4345;
+  border: 1px solid hsla(0, 0%, 62%, 0.5);
+  // input {
+  //   margin-bottom: 1rem;
+  // }
+  label.checkbox {
+    text-align: center;
+  }
+  p.error {
+    margin: 0;
+    color: cyan;
+  }
+}

@@ -1,0 +1,20 @@
+header.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  a {
+    color: #fff;
+  }
+  nav {
+    a {
+      padding: 1rem;
+    }
+  }
+}
+
+main {
+  margin: 3rem auto;
+  max-width: 500px;
+}
